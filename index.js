@@ -6,15 +6,15 @@ const port = process.env.PORT || 5000;
 
 // Middlewares
 
-/* app.use(cors());
-app.use(express.json()); */
+app.use(cors());
+app.use(express.json());
 
-const corsConfig = {
+/* const corsConfig = {
   origin: true,
   credentials: true,
 };
 app.use(cors(corsConfig));
-app.options("*", cors(corsConfig));
+app.options("*", cors(corsConfig)); */
 
 //database info
 // name: remadeEmajon
